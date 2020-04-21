@@ -29,7 +29,7 @@ Each task is stored on a separate line in the file. There are three columns. The
 	- Call these methods from setup()
 	- Write a method called displayTasks() that displays the tasks as in the video. To get full marks you should use the Processing map function in your solution.
 	- Write code that allows a user to alter the start day and end day of a task by clicking and dragging on the start or end of a task with the mouse. The user should not be able to set the start or end of the task beyond the range 1-30 and also should not be able to set the start before the end or the end before the start. You can use the methods mousePressed and mouseDragged to implement this functionality. It is not necessary to save the tasks back to the file.
-	- Be sure to make regular commits on your repository throughout the time you are working on the test. This will help me to verify that your work is your own.
+	- Be sure to make regular commits with messages about what changes are contained in the commit on your repository throughout the time you are working on the test. This will help me to verify that your work is your own.
 	- No collaboration is permitted. Any students found to have collaborated or posted in social media etc. about the test before the submission time will receive a fail grade.
 
 ## Marking Scheme
@@ -42,4 +42,4 @@ Each task is stored on a separate line in the file. There are three columns. The
 | Altering the start and end day of tasks | 30 marks |
 | Use of git | 10 marks |
 
-Submit the URL to your solution before 12 midnight tonight through [this link](https://docs.google.com/forms/d/e/1FAIpQLScovQqWBcwYXkUlEoWX5inMESPi5zpGF3vcWpg1usAKDW1eqg/viewform).
+[Submit the URL to your solution before 12 midnight tonight through this link](https://docs.google.com/forms/d/e/1FAIpQLScovQqWBcwYXkUlEoWX5inMESPi5zpGF3vcWpg1usAKDW1eqg/viewform).
