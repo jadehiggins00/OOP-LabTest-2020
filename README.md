@@ -1,10 +1,10 @@
 ## OOP Lab Test 2020
 
-A Gantt chart is a horizontal bar chart that visually represents a project plan over time. On the vertical axis are the list of tasks that make up the project. On the horizontal axis are bars that show when each task begins and ends. In today's test you will be writing a Java program to display a Gantt chart from tasks stored in a csv file and writing code that allows a user to edit the start and end of each task by dragging the mouse. 
+A Gantt chart is a horizontal bar chart that visually represents a project plan over time. On the vertical axis are the list of tasks that make up the project. On the horizontal axis are bars that show when each task begins and ends. In today's test you will be writing a Java program to display a Gantt chart from tasks stored in a csv file and writing code that allows a user to edit the start and end day of each task by dragging the mouse. 
 
 Here is a video of what your finished project should look like:
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://youtu.be/J2kHSSFA4NU)
+[![YouTube](http://img.youtube.com/vi/uZHh_qOthNo/0.jpg)](https://youtu.be/uZHh_qOthNo)
 
 There is one file in the data folder of the repository. The file tasks.csv looks like this:
 
@@ -16,11 +16,11 @@ Testing,21,25
 Evaluation,24,28
 Release,28,30
 
-Each task is stored on a separate line in the file. There are three columns. The task name (Task column), the start day and the end day. The range of days is between 1 and 30.
+Each task is stored on a separate line in the file. There are three columns. The task, the start day and the end day. The range of days is between 1 and 30.
 
 ## Instructions
 
-- Fork [this repository](https://github.com/skooter500/OOP-LabTest-2020) to get the starter project. Clone the forked repo to your computer and check the upstream and origin remotes are set correctly
+- Fork [this repository](https://github.com/skooter500/OOP-LabTest-2020-Starter) to get the starter project. Clone the forked repo to your computer and check the upstream and origin remotes are set correctly
 - Make a class called Task that encapsulates the columns from a single row from the tasks.csv file. Make private fields and public accessor methods. Make a constructor that takes initial values and assigns them to the fields. Make a constructor that takes a Processing TableRow field as a parameter and make an appropriate toString method.
 - In Gantt.java:
 	- Declare an ArrayList to hold instances of the Task class. 
@@ -28,7 +28,7 @@ Each task is stored on a separate line in the file. There are three columns. The
 	- Write a method printTasks that prints the elements of the ArrayList.
 	- Call these methods from setup()
 	- Write a method called displayTasks() that displays the tasks as in the video. To get full marks you should use the Processing map function in your solution.
-	- Write code that allows a user to alter the start day and end day of a task by clicking and dragging on the start or end of a task with the mouse. The user should not be able to set the start or end of the task beyond the range 1-30 and also should not be able to set the start before the end or the end before the start. You can use the methods mousePressed and mouseDragged to implement this functionality.
+	- Write code that allows a user to alter the start day and end day of a task by clicking and dragging on the start or end of a task with the mouse. The user should not be able to set the start or end of the task beyond the range 1-30 and also should not be able to set the start before the end or the end before the start. You can use the methods mousePressed and mouseDragged to implement this functionality. It is not necessary to save the tasks back to the file.
 	- Be sure to make regular commits on your repository throughout the time you are working on the test. This will help me to verify that your work is your own.
 	- No collaboration is permitted. Any students found to have collaborated or posted in social media etc. about the test before the submission time will receive a fail grade.
 
