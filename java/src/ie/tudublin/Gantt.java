@@ -14,6 +14,7 @@ public class Gantt extends PApplet
 
 		loadTasks();
 		printTasks();
+		
 	}
 
 	public void loadTasks()
@@ -124,7 +125,7 @@ public class Gantt extends PApplet
 
 			// Print the task
 			noStroke();
-			fill(0, 255, 0);
+			fill(map(i, 0, tasks.size(), 0, 255), 255, 255);
 			float x1 = map(tasks.get(i).getStart(), 1, maxMonths, namesPart, width - border);
 			float x2 = map(tasks.get(i).getEnd(), 1, maxMonths, namesPart, width - border);
 			rect(x1, y - 15, x2 - x1, rowHeight - 5, 5.0f);
@@ -134,6 +135,7 @@ public class Gantt extends PApplet
 
 	public void setup() 
 	{
+		colorMode(HSB);
 	}
 	
 	public void draw()
